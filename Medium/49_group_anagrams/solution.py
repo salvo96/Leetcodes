@@ -35,7 +35,7 @@ class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         unique_anagrams = {}
         for str_ in strs:  #   O(N)
-            key = self.count_string(str_)  # str(sorted(str_)) #   O(k * log(k))
+            key = self.count_string(str_)  # O(k)
             if unique_anagrams.get(key):
                 unique_anagrams[key].append(str_)
             else:
