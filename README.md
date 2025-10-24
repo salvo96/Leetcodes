@@ -1,12 +1,12 @@
 # LeetCode Solutions
 
-This repository contains my solutions to various LeetCode problems. Each solution includes a detailed explanation and the implementation in different programming languages.
+This repository contains my solutions to various LeetCode problems. Each solution includes a detailed explanation and the implementation in Python.
 
 ## Structure
 
 - Each problem has its own directory
 - Solutions are organized by difficulty level
-- Includes problem description, approach, and complexity analysis
+- Includes problem description and code implementation
 
 ## Categories
 Problems are organized following the [NeetCode 150](https://neetcode.io/practice) roadmap:
@@ -34,8 +34,6 @@ Problems are organized following the [NeetCode 150](https://neetcode.io/practice
 1. Browse the problems by category or difficulty
 2. Each solution includes:
     - Problem description
-    - Solution approach
-    - Time & Space complexity
     - Code implementation
 
 ## Contributing
@@ -43,8 +41,6 @@ Problems are organized following the [NeetCode 150](https://neetcode.io/practice
 Feel free to submit pull requests if you'd like to:
 - Add new solutions
 - Improve existing solutions
-- Fix bugs
-- Add better explanations
 
 ## License
 
