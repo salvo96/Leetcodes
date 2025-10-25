@@ -3,7 +3,7 @@ class Solution:
         if len(coordinates) > 2:
             p1 = coordinates[0]
             p2 = coordinates[1]
-            
+
             if p2[1] != p1[1]:
                 const_ = (p2[0] - p1[0]) / (p2[1] - p1[1])
                 for coord in coordinates:
@@ -13,7 +13,5 @@ class Solution:
                 for coord in coordinates:
                     if coord[1] != p1[1]:
                         return False
-            
-        return True
 
-        
+        return True
