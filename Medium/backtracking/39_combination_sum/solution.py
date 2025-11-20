@@ -13,4 +13,3 @@ class Solution:
         solution = []
         self.backtrack(candidates, 0, [], solution, target)
         return solution
-        
