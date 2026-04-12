@@ -1,5 +1,10 @@
 # LeetCode Solutions
 
+<!-- PROGRESS_START --> <div align="center">
+![Easy](https://img.shields.io/badge/Easy-8-brightgreen) ![Medium](https://img.shields.io/badge/Medium-31-yellow) ![Hard](https://img.shields.io/badge/Hard-1-red) ![Total](https://img.shields.io/badge/Total-40-blue)
+</div>
+<!-- PROGRESS_END -->
+
 This repository contains my solutions to various LeetCode problems. Each solution includes a detailed explanation and the implementation in Python.
 
 ## Structure
