@@ -13,7 +13,6 @@ class Solution:
             if operand == "/":
                 return int(op1 / op2)
 
-
         for token in tokens:
             if token in op_token:
                 op2 = stack.pop()
