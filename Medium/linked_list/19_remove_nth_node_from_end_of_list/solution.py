@@ -7,7 +7,7 @@
 class Solution:
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         counter = 0
-        
+
         node = head
         while node:
             counter += 1
@@ -23,16 +23,19 @@ class Solution:
                 node.next = node.next.next
                 return head
             node = node.next
-        
+
+
 ################################################################## Recursive Solution ##################################################################
 class Solution:
-    def __init__(self, ):
+    def __init__(
+        self,
+    ):
         self.counter = 0
 
     def removeNthFromEnd(self, head: Optional[ListNode], n: int) -> Optional[ListNode]:
         if head.next:
             head.next = self.removeNthFromEnd(head.next, n)
-        
+
         self.counter += 1
 
         if self.counter == n:
