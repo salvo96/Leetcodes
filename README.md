@@ -1,7 +1,7 @@
 # LeetCode Solutions
 
 <!-- PROGRESS_START --> <div align="center">
-![Easy](https://img.shields.io/badge/Easy-15-brightgreen) ![Medium](https://img.shields.io/badge/Medium-48-yellow) ![Hard](https://img.shields.io/badge/Hard-1-red) ![Total](https://img.shields.io/badge/Total-64-blue)
+![Easy](https://img.shields.io/badge/Easy-15-brightgreen) ![Medium](https://img.shields.io/badge/Medium-49-yellow) ![Hard](https://img.shields.io/badge/Hard-1-red) ![Total](https://img.shields.io/badge/Total-65-blue)
 </div>
 <!-- PROGRESS_END -->
 
