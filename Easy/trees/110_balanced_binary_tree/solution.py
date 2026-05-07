@@ -10,14 +10,13 @@ class Solution(object):
         :type root: Optional[TreeNode]
         :rtype: bool
         """
-        height = 0
 
-        def computeHeight(root, height):
+        def computeHeight(root):
             if not root:
-                return height, 0
+                return 0, 0
 
-            left_height, left_height_abs_diff = computeHeight(root.left, height)
-            right_height, right_height_abs_diff = computeHeight(root.right, height)
+            left_height, left_height_abs_diff = computeHeight(root.left)
+            right_height, right_height_abs_diff = computeHeight(root.right)
 
             height_abs_diff = max(
                 left_height_abs_diff,
@@ -25,8 +24,6 @@ class Solution(object):
                 abs(left_height - right_height),
             )
 
-            return max(left_height + 1, right_height + 1), height_abs_diff
+            return max(left_height, right_height) + 1, height_abs_diff
 
-        _, max_height_abs_diff = computeHeight(root, height)
-
-        return max_height_abs_diff <= 1
+        return computeHeight(root)[1] <= 1
