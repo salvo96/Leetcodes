@@ -36,12 +36,11 @@ class WordDictionary:
 
                     node = node.next_letter[c]
                 else:
-                    res = False
                     for elem in node.next_letter:
-                        if elem:
-                            res = max(res, search_substr(elem, word, idx + 1))
+                        if elem and search_substr(elem, word, idx + 1):
+                            return True
 
-                    return res
+                    return False
 
             return node.is_word
 
