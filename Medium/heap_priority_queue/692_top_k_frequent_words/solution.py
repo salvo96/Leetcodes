@@ -5,10 +5,7 @@ class Solution:
     def topKFrequent(self, words: List[str], k: int) -> List[str]:
         word_freq = dict()
         for word in words:
-            if word_freq.get(word):
-                word_freq[word] += 1
-            else:
-                word_freq[word] = 1
+            word_freq[word] = word_freq.get(word, 0) + 1
 
         word_freq_queue = []
         for word, frequency in word_freq.items():
